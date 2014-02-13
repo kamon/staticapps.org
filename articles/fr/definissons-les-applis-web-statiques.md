@@ -9,8 +9,8 @@ des technologies au niveau du navigateur plutôt que sur le serveur.
 
 ### Une application web Tradionnelle
 
-De nombreuses applications web s'appuient sur la g�n�ration de pages HTML c�t� serveur
-pour fournir une exp�rience dynamique.
+De nombreuses applications web s'appuient sur la génération de pages HTML coté serveur
+pour fournir une expérience dynamique.
 
 Cela fonctionne, en termes simples, de la mani�re suivante :
 
