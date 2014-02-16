@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Definissons les Applis Web Statiques
+title: Definissons les Applications Web Statiques
 next:
-  label: 
-  url: 
+  label: Pourquoi construire des Applications Web Statiques ?
+  url: /articles/fr/pourquoi-construire-des-applis-statiques
 ---
 
 On parle d'**Application web statique** dans le cas de toute application qui peut êre servie

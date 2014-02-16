@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Pourquoi construire des Applis Web Statiques ?
+title: Pourquoi construire des Applications Web Statiques ?
 prev:
-  label: Definissons les Applis Web Statiques
-  url: 
+  label: Definissons les Applications Web Statiques
+  url: /articles/fr/definissons-les-applis-statiques
 next:
-  label: 
-  url: 
+  label: Penser Services
+  url: /articles/fr/penser-services
 ---
 
 Plutôt que d'assembler du contenu dans les processus côté serveur, les applications web statiques s'appuient 
