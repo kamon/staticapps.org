@@ -3,10 +3,10 @@ layout: post
 title: Assembler la pile technologique de votre application
 prev:
   label: Penser Services
-  url: /articles/fr/xxxxx
+  url: /articles/fr/penser-services.md
 next:
-  label: Routing URLs in Static Apps
-  url: /articles/fr/xxxxx
+  label: Routing des URLs dans les applis statiques
+  url: /articles/fr/routing-des-urls-dans-les-applis-statiques
 ---
 
 Une fois que vous avez décidé de construire une application web statique, il y a encore plusieurs choix importants
@@ -18,7 +18,7 @@ Les applications web statiques utilisent généralement une combination of des c
 ### Langages pré-processeurs
 
 Les langages pré-processeurs sont des langages de programmation qui sont compilés en HTML, JavaScript, ou CSS.
-Ils peuvent offrir une syntaxe plus concise, des fonctionnalirés supplémentaires, ou d'autres avantages 
+Ils peuvent offrir une syntaxe plus concise, des fonctionnalirés supplémentaires, et d'autres avantages 
 par rapport au langage de base. Bien que certains de ces langages sont écrits en JavaScript et peuvent être entièrement parsés
 et executés dans le navigateur, ils sont généralement compilés vers le langage cible avant d'être déployés sur le serveur web.
 
@@ -70,45 +70,48 @@ des éléments tels que les boutons, les grilles de présentation ("grid layouts
 
 **Exemples:** [Bootstrap](http://getbootstrap.com), [Foundation](http://foundation.zurb.com)
 
-### Hébergement
+### Espaces d'hébergement
 
-Of course, you'll need a place to host your project once you're ready to bring it online. There are many options
-for static web hosting including traditional shared hosts, online storage with hosting, and new dedicated static
-web hosting services. When choosing a host, there are a few things (other than cost) to look for:
+Bien sûr, vous aurez besoin d'un endroit où héberger votre projet une fois que vous êtes prêt à le mettre en ligne.
+Il y a de nombreuses options pour de l'hébergement web statique, y compris les hébergements mutualisés traditionnels,
+et les nouveaux services dédiés à l'hébergement web statique. Lorsque vous choisissez un espace d'hébergement, il y a quelques
+éléments (en dehors du coût) à prendre en considération :
 
-* Does the host provide any kind of content acceleration through a global server network?
-* Can I host an SSL-protected static web app on the provider?
-* How easy is the deploy process? Are there developer-friendly features like rollback?
+* L'hébergement fournit-il un service d'accélération de contenus via un réseau global de serveurs ?
+* Le fournisseur offre-t-il la possibilité d'héberger une appli web statique avec protection SSL ?
+* Quel degré de facilité avec le processus de déploiement ? Y a-t-il des options pour le confort du développeur, comme le rollback ?
 
-**Examples:** [Divshot](http://www.divshot.io/), [Amazon S3](http://aws.amazon.com/s3/), [GitHub Pages](http://pages.github.com/)
+**Exemples:** [Divshot](http://www.divshot.io/), [Amazon S3](http://aws.amazon.com/s3/), [GitHub Pages](http://pages.github.com/)
 
-### Back-End Services
+### Services "back-end" ou techniques 
 
-Back-end service providers offer a way to implement a part of your application's business needs without having to host
-or build custom code for it. These services may provide database storage, user authentication, email delivery, or
-a variety of other services. Some back-end services try to offer a comprehensive package while others focus on a narrower
-slice of your application needs.
+Les fournisseurs de services "back-end" offrent un moyen d'implémenter une partie des besoins de votre application 
+sans avoir à héberger ou développer du code spécifique pour ces besoins. Il peut s'agir, entre autres, de stockage 
+de bases de données, d'authentification d'utilisateurs, ou d'envoi d'email. Certains fournisseurs tendent vers une offre
+large et cohérente tandis que d'autres se concentrent sur une portion plus restreinte des besoins de votre application.
 
 **Examples:** [Firebase](http://www.firebase.com/), [UserApp](http://userapp.io), [Hull](http://hull.io)
 
-### Third-Party APIs
+### APIs tierces / génériques
 
-If you're building a static web app and would like to integrate with data from a third-party API, you're in luck!
-Many API providers now offer either dedicated JavaScript libraries for direct browser integration or support static
-web apps through [Cross-Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/HTTP/Access_control_CORS).
-Connecting to APIs in-browser saves you the duplicated infrastructure cost of proxying requests through your own servers.
+Si vous construisez une appli web statique et souhaitez intégrer des données d'une API tierce, vous avez de la chance !
+De nombreux fournisseurs d'API offrent maintenant soit des bibliothèques JavaScript dédiées pour une intégration directe 
+au niveau du navigateur ou supportent les applis web statiques via la technique [Cross-Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/HTTP/Access_control_CORS).
+Se connecter aux APIS au niveau navigateur vous fait gagner le coût d'infrastructure supplémentaire si vous deviez relayer 
+les requêtes via vos propres serveurs.
 
-**Examples:** [AWS SDK for Browser](http://aws.amazon.com/sdkforbrowser/), [GitHub API](http://developer.github.com/v3/)
+**Exemples:** [AWS SDK for Browser](http://aws.amazon.com/sdkforbrowser/), [GitHub API](http://developer.github.com/v3/)
 
-### Custom Server APIs
+### APIs spécifiques
 
-As you build out your application, you may find there are pieces that can't be handled by an off-the-shelf third-party
-provider. That's ok, and totally in keeping with a static application mindset! When you run into these cases, it's best
-to build the functionality you need as a compact, independent, purpose-driven service that can be easily consumed by the
-browser and any other platforms you support. 
+A mesure que vous construisez votre application, certaines parties peuvent se révéler difficiles ou impossibles 
+à implémenter via une API prête à l'emploi. C'est acceptable et c'est totalement conforme avec l'idée d'une application statique.
+Lorsque vous vous retrouvez dans ces cas, il est préférable de construire la fonctionnalité dont vous avez besoin sous forme 
+d'un service compacte, indépendant, conçu pour être facilement consommé par le navigateur et toutes les autres 
+plate-formes que vous supportez.
 
 ---
 
-Choosing a technology stack that works well for you will be vital to the productivity and maintainability of your project.
-What works well for one application may not work well for another, but one of the benefits of building static is that
-you have more flexibility to compose an ideal, modular stack that suits your needs.
+Le choix d'une pile technologique qui fonctionne bien pour vous est vital pour la productivité et la maintenabilité de votre projet.
+Ce qui fonctionne bien pour une application peut ne pas fonctionner pour une autre, mais un des avantages de l'approche "web statique"
+est que vous avez plus de flexibilité pour composer une pile technologique modulaire qui colle au mieux à vos besoins.
