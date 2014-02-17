@@ -10,7 +10,7 @@ next:
 ---
 
 Les applications web statiques ont des contraintes très clairement définies, et de ce fait
-se prêtent naturellement à l'**Architecture orientée service** ou, en anglais, **Service-Oriented Architecture (SOA)**.
+se prêtent naturellement à l'**Architecture orientée service** ou **Service-Oriented Architecture (SOA)**.
 Une application construite avec SOA est composée de plusieurs briques indépendantes (services)
 se coordonnant pour réaliser les objectifs de l'application.
 
