@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Assembler la pile technologique de votre application
+title: Assembler le stack technologique de votre application
 prev:
   label: Penser Services
   url: /articles/fr/penser-services.md
@@ -10,7 +10,7 @@ next:
 ---
 
 Une fois que vous avez décidé de construire une application web statique, il y a encore plusieurs choix importants
-à faire en termes de pile technologique (stack) de votre application. Bien qu'une application web statique peut être
+à faire en termes de stack technologique de votre application. Bien qu'une application web statique peut être
 écrite entièrement dans un seul fichier HTML (avec de la CSS et du JavaScript embarqué), les applications complexes
 bénéficient grandement de la grande variété d'outils et services disponibles pour le développement web statique.
 Les applications web statiques utilisent généralement une combination of des catégories d'outils qui suivent.
@@ -70,7 +70,7 @@ des éléments tels que les boutons, les grilles de présentation ("grid layouts
 
 **Exemples:** [Bootstrap](http://getbootstrap.com), [Foundation](http://foundation.zurb.com)
 
-### Espaces d'hébergement
+### Hébergement pour le web statique
 
 Bien sûr, vous aurez besoin d'un endroit où héberger votre projet une fois que vous êtes prêt à le mettre en ligne.
 Il y a de nombreuses options pour de l'hébergement web statique, y compris les hébergements mutualisés traditionnels,
@@ -112,6 +112,7 @@ plate-formes que vous supportez.
 
 ---
 
-Le choix d'une pile technologique qui fonctionne bien pour vous est vital pour la productivité et la maintenabilité de votre projet.
-Ce qui fonctionne bien pour une application peut ne pas fonctionner pour une autre, mais un des avantages de l'approche "web statique"
-est que vous avez plus de flexibilité pour composer une pile technologique modulaire qui colle au mieux à vos besoins.
+Le choix d'un stack technologique qui fonctionne bien pour vous est vital pour la productivité et la maintenabilité de votre projet.
+Ce qui fonctionne bien pour une application peut ne pas fonctionner pour une autre, mais un des avantages de 
+l'approche "web statique" est que vous avez plus de flexibilité pour composer une pile technologique modulaire qui 
+colle au mieux à vos besoins.

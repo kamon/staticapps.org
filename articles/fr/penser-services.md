@@ -5,8 +5,8 @@ prev:
   label: Pourquoi construire des Applications Web Statiques ?
   url: /articles/fr/pourquoi-construire-des-applis-statiques
 next:
-  label: Assembler votre stack d'application statique
-  url: /articles/fr/assembler-votre-stack-d-appli-statique
+  label: Assembler le stack technologique de votre application
+  url: /articles/fr/assembler-le-stack-technologique
 ---
 
 Les applications web statiques ont des contraintes très clairement définies, et de ce fait
