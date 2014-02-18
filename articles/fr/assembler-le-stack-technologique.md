@@ -5,8 +5,8 @@ prev:
   label: Penser Services
   url: /articles/fr/penser-services.md
 next:
-  label: Routing des URLs dans les applis statiques
-  url: /articles/fr/routing-des-urls-dans-les-applis-statiques
+  label: Routage des URLs dans les applis statiques
+  url: /articles/fr/routage-des-urls-dans-les-applis-statiques
 ---
 
 Une fois que vous avez décidé de construire une application web statique, il y a encore plusieurs choix importants
