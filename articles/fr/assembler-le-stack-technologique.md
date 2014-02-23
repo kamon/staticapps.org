@@ -5,8 +5,8 @@ prev:
   label: Penser Services
   url: /articles/fr/penser-services.md
 next:
-  label: Routage des URLs dans les applis statiques
-  url: /articles/fr/routage-des-urls-dans-les-applis-statiques
+  label: Routing des URLs dans les applis statiques
+  url: /articles/fr/routing-des-urls-dans-les-applis-statiques
 ---
 
 Une fois que vous avez décidé de construire une application web statique, il y a encore plusieurs choix importants
@@ -31,10 +31,9 @@ CSS, et JavaScript, mais il y a d'autres façons de gérer le début du processu
 à effectuer les tâches importantes telles que combiner plusieurs fichiers en un, compiler les langages pré-processeurs,
 ou même "packager" le code en une application mobile.
 
-Différents outils seront créés selon les besoins. Certains servent un besoin spécifique
-alors que d'autres peuvent être utilisés quel que soit l'application que voulez construire. 
-Lorsque vous choisissez un outil de build, il est logique de chercher quelquechose qui s'adapte à votre workflow, 
-est activement maintenu, et dispose d'une communauté active d'utilisateurs.
+Différents outils seront créés selon les besoins. Certains servent un besoin spécifique alors que d'autres peuvent être utilisés 
+quel que soit l'application que voulez construire. Lorsque vous choisissez un outil de build, il est logique de chercher 
+quelquechose qui s'adapte à votre workflow, est activement maintenu, et dispose d'une communauté active d'utilisateurs.
 
 **Exemples:** [Jekyll](http://jekyllrb.com/), [Grunt](http://gruntjs.com/), [Yeoman](http://yeoman.io/), [Harp](http://harpjs.com/)
 
@@ -42,7 +41,7 @@ est activement maintenu, et dispose d'une communauté active d'utilisateurs.
 
 Les gestionnaires de packages permettent aux développeurs d'installer de manière aisée le code de modules 
 open source ou partagées qui doivent servir pour un ensemble d'applications. Lorsque vous utilisez un gestionnaire de paquets,
-vous pouvez déclarer, pour votre project, des **dépendances** que le gestionnaire de paquets va automatiquement télécharger
+vous pouvez déclarer, pour votre project, des **dépendances** que le gestionnaire de packages va automatiquement télécharger
 et installer au bon endroit. Ceci facilite à la fois l'installation de nouveaux modules et la mise à jour de 
 modules existants dans vos projets.
 
@@ -114,5 +113,5 @@ plate-formes que vous supportez.
 
 Le choix d'un stack technologique qui fonctionne bien pour vous est vital pour la productivité et la maintenabilité de votre projet.
 Ce qui fonctionne bien pour une application peut ne pas fonctionner pour une autre, mais un des avantages de 
-l'approche "web statique" est que vous avez plus de flexibilité pour composer une pile technologique modulaire qui 
+l'approche "web statique" est que vous avez plus de flexibilité pour composer un stack technologique modulaire qui 
 colle au mieux à vos besoins.
