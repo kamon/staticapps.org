@@ -62,7 +62,7 @@ l'historique du navigateur, modifiant ainsi l'URL affichée sans qu'il n'y ait b
 En utilisant la méthode `history.pushState`, les développeurs ont complêtement le contrôle de l'historique de 
 navigation d'une application.
 
-> Vous avez probablement entendu parler des URLs "hash" ou "hashbang". Ces URLs utilisent la partie de l'URL avec le `#` 
+> Vous avez probablement entendu parler des URLs "hash" ou "hashbang". Ces URLs utilisent la partie de l'URL correspondant au hash 
 > comme une extension du chemin (ex. `#/zip/90014`). Pratique courante ou encouragée par le passé, l'astuce des URLs hash 
 > n'est plus nécessaire depuis l'API HTML5 History. N'envisagez cette technique que si vous devez
 > [supporter les anciens navigateurs](http://caniuse.com/#search=pushstate).
