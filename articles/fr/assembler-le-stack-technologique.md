@@ -24,7 +24,7 @@ et executés dans le navigateur, ils sont généralement compilés vers le langa
 
 **Exemples:** [CoffeeScript](http://coffeescript.org), [LESS](http://www.lesscss.org/), [HAML](http://haml.info/), [Dart](https://www.dartlang.org/)
 
-### Outils de "build" / Générateurs de site
+### Outils de build / Générateurs de site
 
 Les applications web statiques sont stockées sur le serveur et servies au navigateur sous forme de fichiers HTML,
 CSS, et JavaScript, mais il y a d'autres façons de gérer le début du processus. Les outils de build aident les développeurs

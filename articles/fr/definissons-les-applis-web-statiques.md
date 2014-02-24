@@ -13,7 +13,6 @@ et qui ne changent pas, par exemple un site "institutionnel". Mais les *applicat
 font généralement référence à des sites riches qui servent du contenu dynamique en utilisant
 des technologies au niveau du navigateur plutôt que sur le serveur.
 
-
 ### Une application web Tradionnelle
 
 De nombreuses applications web s'appuient sur la génération de pages HTML coté serveur
@@ -51,9 +50,9 @@ La principale difference ici est que dans une appli web traditionnelle, le *serv
 récupérer les données et de les compiler en HTML que l'utilisateur peut voir, alors que dans une appli web statique
 c'est le *navigateur* qui s'en charge.
 
-> **Tip:** Want to see if a given page is a static web app? Just use **View Source** in your browser. If you
-> see user-specific data or other dynamic content in the source code, it's a traditional app. If you
-> only see the basic structure of the page, it's a static app.
+> **Astuce:** Vous voulez voir si une page donnée est est une appli web statique ? Utilisez la fonction **Afficher la source** de votre navigateur. 
+> Si vous voyez des données utilisateur ou autres contenus dynamques dans le code source, il s'agit d'une appli traditionnelle. 
+> Si vous voyez uniquement la structure de base de la page, il s'agit d'une appli statique.
 
 Cela peut sembler une petite différence, mais cela a un impact important sur l'architecture, la conception,
 et l'expérience utilisateur de l'application toute entière. Nous verrons en détail certaines des raisons
@@ -67,9 +66,10 @@ Il est courant, par exemple, pour une application, de stocker des pages entière
 contenu dynamique, puis d'utiliser JavaScript pour chercher des données supplémentaires, personnalisées
 pour un utilisateur donné.
 
-> If you visit **Airbnb** while logged in, you may notice that for a second or two, the page may say
-> "Sign Up" and "Log In". Once fully loaded, the page shows your profile picture and name. This is an
-> example of a hybrid app with some data rendered by the server, some by the browser.
+> Lorsque vous visitez le site **Airbnb** en étant identifié, vous avez pu remarquer que pendant une à deux secondes la page indique
+> "Inscription" et "Connexion". Une fois complètement chargée, la page montre votre photo et votre nom, tels que 
+> enregistrés dans votre profil. Ceci est un exemple d'une appli hybride avec certaines données venant du serveur, 
+> et d'autres du navigateur.
 
 Bien que les applis hybrides peuvent apporter à la fois les avantages des applis statiques et ceux des applis
 traditionnelles, elles viennent aussi avec plusieurs challenges sur le plan architectural.
